@@ -2,12 +2,15 @@
 title: "The role of benthic habitats in shaping USVI beach morphology"
 author: "Maya Hodder"
 format: html
+toc: TRUE
 editor: visual
 ---
 
-## Load Libraries
 
 ```{r}
+#| echo: FALSE
+#| warning: FALSE
+
 library(knitr)
 library(dplyr) 
 library(purrr) 
